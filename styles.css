@@ -1,0 +1,16 @@
+body {
+  background-image: url("background.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-color: #ce9c9d;
+  height: 920px;
+}
+.wrapper {
+  width: 70%;
+  height: 100%;
+  margin: 15px auto;
+  padding: 1px 15px;
+  border-radius: 2%;
+  box-shadow: 0px 0px 15px #47474779;
+  background-color: #f8e6e6;
+}
