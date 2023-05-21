@@ -9,20 +9,20 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Recipes</title>
+    <title>Family Recipes</title>
   </head>
 
   <body>
     <header>
       <nav>
-        <div class="logo">Family Recipes</div>
+        <div class="logo"><a href="index.html">Family Recipes</a></div>
         <div class="right-links">
           <ul class="navlinks">
-            <li>All recipes</li>
+            <li><a>All recipes</a></li>
             <li>|</li>
-            <li>Gluten-free</li>
+            <li><a>Gluten-free</a></li>
             <li>|</li>
-            <li>Vegan</li>
+            <li><a>Vegan</a></li>
           </ul>
           <ul class="cclc">
             <li>Language:</li>
@@ -42,24 +42,41 @@
       </nav>
     </header>
     <div class="wrapper">
-      <h1>Recipes</h1>
-      <ul>
-        <li>
-          <a href="./recipes/spinach-crepes-with-tofu.html"
-            >Spinach crepes with tofu filling</a
-          >
-        </li>
-        <li><a href="./recipes/red-lentil-dahl.html">Red lentil Dahl</a></li>
-        <li><a href="./recipes/beet-patties.html">Beet patties</a></li>
-        <li>
-          <a href="./recipes/easter-horseradish-cream.html"
-            >Easter horseradish cream</a
-          >
-        </li>
-        <li>
-          <a href="./recipes/polish-krupnik-soup.html">Polish krupnik soup</a>
-        </li>
-      </ul>
+      <h1>All recipes:</h1>
+      <div class="recipes-list">
+        <ul>
+          <li class="recipe-card">
+            <a href="./recipes/spinach-crepes-with-tofu.html">
+              <img src="recipes/img/spinach-crepes-with-tofu.png" />
+              <p>Spinach crepes with tofu</p></a
+            >
+          </li>
+          <li class="recipe-card">
+            <a href="./recipes/red-lentil-dahl.html">
+              <img src="./recipes/img/red-lentil-dahl.png" />
+              <p>Red lentil Dahl</p></a
+            >
+          </li>
+          <li class="recipe-card">
+            <a href="./recipes/beet-patties.html">
+              <img src="./recipes/img/beet-patties.png" />
+              <p>Beet patties</p></a
+            >
+          </li>
+          <li class="recipe-card">
+            <a href="./recipes/easter-horseradish-cream.html">
+              <img src="./recipes/img/easter-horseradish-cream.png" />
+              <p>Easter horseradish cream</p></a
+            >
+          </li>
+          <li class="recipe-card">
+            <a href="./recipes/polish-krupnik-soup.html">
+              <img src="./recipes/img/polish-krupnik-soup.png" />
+              <p>Polish krupnik soup</p></a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

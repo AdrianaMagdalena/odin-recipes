@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
 }
+
 body {
   background-image: url("./background.png");
   background-size: cover;
@@ -25,18 +27,20 @@ nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.logo {
+.logo a {
   font-family: "Pacifico", cursive;
   font-size: 30px;
   font-weight: lighter;
+  text-decoration: none;
 }
 
 .right-links {
   display: flex;
   gap: 40px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -44,40 +48,58 @@ nav {
 .cclc {
   display: flex;
   gap: 4px;
+  list-style-type: none;
 }
 
 .wrapper {
   width: 70vw;
-  height: 90vh;
+  min-height: 90vh;
   border-radius: 0 0 5px 5px;
   background-color: #fff8f1;
 }
 
-h1,
-ul {
-  text-align: center;
-  margin: 20px 0 10px 0;
-}
-
 h1 {
   font-family: "Pacifico", cursive;
-  font-weight: lighter;
-  font-size: 56px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
 }
 
-ul {
-  font-size: larger;
-  line-height: 1.6;
+.recipes-list ul {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
   list-style-type: none;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-  color: black;
+.recipe-card {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 3px #74583b67;
 }
 
-a:hover {
-  color: #8d4d4e;
-  text-shadow: 0px 0px 5px #4747474b;
+.recipe-card p {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.recipe-card a {
+  text-decoration: none;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.recipe-card:hover {
+  box-shadow: 0px 0px 7px 5px #091a1277;
 }
