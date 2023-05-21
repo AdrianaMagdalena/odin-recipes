@@ -1,11 +1,15 @@
-# odin-recipes
+Website with favorite family recipes
 
-Website with favorite recipes
-Will showcase the following skills: html boilerplate, lists, links and images
-Only html per 02.04.2023
+Live: https://adrianamagdalena.github.io/recipes/
 
-Link to project: https://adrianamagdalena.github.io/recipes/
+HTML and CSS
+
+Will add in future updates:
+-separate pages with gluten-free and vegan recipes
+-polish and hungarian pages
+-revamping of recipe pages to add header with navigation links
+-revamping of the look of main section of recipe pages
 
 Used images:
-background: Photo by Miti on Unsplash https://unsplash.com/photos/qYreP9QOdrk
-red lentil dahl: Photo by Edgar Castrejon on Unsplash https://unsplash.com/photos/gVOvZFcYBMY
+-Background: Photo by Miti on Unsplash https://unsplash.com/photos/qYreP9QOdrk
+-Red lentil dahl: Photo by Edgar Castrejon on Unsplash https://unsplash.com/photos/gVOvZFcYBMY
